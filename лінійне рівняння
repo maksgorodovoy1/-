@@ -1,0 +1,27 @@
+#include <iostream>
+using namespace std;
+
+void equation(double a, double b)
+{
+    if (a == 0, b == 0){
+        cout << "bezlich" << endl;
+    }
+    else if (a == 0){
+        cout << "nema" << endl;
+    }
+     else {
+        double x = -b / a; 
+        cout << "x = " << x << endl; 
+     }
+}
+int main()
+{
+    double a, b; 
+    cin >> a;
+    cin >> b;
+     cout << "Лінійне рівняння:a*x+b=0\n"; 
+     cout << "a * x = -b\n";
+     cout << "x = -b/a";
+     equation(a, b); 
+
+}
